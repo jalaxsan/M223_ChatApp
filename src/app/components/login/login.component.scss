@@ -1,0 +1,68 @@
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #ffffff;
+  
+    @media (max-width: 600px) {
+      padding: 16px;
+      margin: 20px auto;
+    }
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  
+    @media (max-width: 600px) {
+      margin-bottom: 12px;
+    }
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .margin-top {
+    margin-top: 16px;
+  
+    @media (max-width: 600px) {
+      margin-top: 12px;
+    }
+  }
+  
+  button {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 8px;
+  
+    @media (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+  
+  .sign-up-link {
+    font-size: 1rem;
+    margin-left: 4px;
+  
+    @media (max-width: 600px) {
+      font-size: 0.9rem;
+    }
+  }
+  
